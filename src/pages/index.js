@@ -45,10 +45,8 @@ class Index extends React.Component {
                   <h2>Cloud Backups</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  It’s important to not wait until disaster comes to you. Being
+                  prepared for data failure will keep your essential data safe.
                 </p>
                 <ul className="actions">
                   <li>
@@ -58,8 +56,8 @@ class Index extends React.Component {
                   </li>
                 </ul>
               </div>
-              <span className="image">
-                <img src={pic01} alt="" />
+              <span>
+                <span className="icon major style2 fa-cloud-upload" />
               </span>
             </div>
           </section>
@@ -70,24 +68,24 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code" />
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style3 fa-life-ring" />
+                <h3>Peace of Mind</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy" />
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style1 fa-fire" />
+                <h3>There When You Need Us</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond" />
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fa-compass" />
+                <h3>The Right Path</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
@@ -108,26 +106,23 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Cryptomining Services</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <p>Coming Soon</p>
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork" />
-                <strong>29+ Coins</strong> Mined
+                <span className="icon fa-bitcoin" />
+                <strong>27 Coins</strong> Mined
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o" />
+                <span className="icon fa-bolt" />
                 <strong>1,000,000</strong> mining powers
               </li>
               <li className="style3">
-                <span className="icon fa-signal" />
+                <span className="icon fa-plug" />
                 <strong>2,048</strong> Watts/second
               </li>
               <li className="style4">
-                <span className="icon fa-laptop" />
+                <span className="icon fa-battery-full" />
                 <strong>4,096</strong> Watts/next second
               </li>
               <li className="style5">
@@ -177,16 +172,50 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Meet the Team</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
             </header>
+            <ul className="features">
+              <li>
+                <span className="icon major style3 fa-life-ring" />
+                <h3>Joe Dahle</h3>
+                <h4>CEO</h4>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-fire" />
+                <h3>Kico Cortes</h3>
+                <h4>CFO</h4>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-compass" />
+                <h3>Tyler Despain</h3>
+                <h4>CTO</h4>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-compass" />
+                <h3>Xavier Acosta</h3>
+                <h4>CMO</h4>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+              </li>
+            </ul>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/About" className="button special">
-                    Get Started
+                  <Link to="/ItSupport/" className="button special">
+                    Meet the Team
                   </Link>
                 </li>
               </ul>

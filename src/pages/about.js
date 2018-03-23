@@ -12,7 +12,10 @@ class About extends React.Component {
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 
-        <HeaderGeneric title={'About Us'} subText={'From the Millenials'} />
+        <HeaderGeneric
+          title={'About Us'}
+          subText={'Yada yada yada, the story of broke bros'}
+        />
 
         <p className="logo" style={{ textAlign: 'center' }}>
           <img style={{ maxWidth: '6em' }} src={logo} alt="" />
