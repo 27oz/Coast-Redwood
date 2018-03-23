@@ -92,7 +92,7 @@ class CloudBackups extends React.Component {
 
 export default CloudBackups
 
-export const BackupQuery = graphql`
+export const pageQuery = graphql`
   query CloudBKQuery {
     site {
       siteMetadata {

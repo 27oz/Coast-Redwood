@@ -39,7 +39,7 @@ class ItSupport extends React.Component {
 export default ItSupport
 
 export const pageQuery = graphql`
-  query GenericQuery {
+  query ItSupportQuery {
     site {
       siteMetadata {
         title
