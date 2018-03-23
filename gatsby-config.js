@@ -1,11 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Stellar by HTML5 UP',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Stellar by HTML5 UP',
+    title: '27oz',
+    author: 'Joe Dahle',
+    description: 'We do a lot',
   },
   pathPrefix: '/',
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-116269247-1',
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
