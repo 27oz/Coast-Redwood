@@ -39,7 +39,7 @@ class Crypto extends React.Component {
 export default Crypto
 
 export const pageQuery = graphql`
-  query GenericQuery {
+  query CryptoQuery {
     site {
       siteMetadata {
         title

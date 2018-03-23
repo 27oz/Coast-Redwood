@@ -39,7 +39,7 @@ class About extends React.Component {
 export default About
 
 export const pageQuery = graphql`
-  query GenericQuery {
+  query AboutQuery {
     site {
       siteMetadata {
         title
