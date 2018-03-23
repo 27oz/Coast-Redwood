@@ -66,7 +66,7 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>IT Support</h2>
             </header>
             <ul className="features">
               <li>
@@ -97,7 +97,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/ItSupport/" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -107,7 +107,7 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Cryptomining Services</h2>
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
                 posuere. Nulla massa urna, fermentum eget quam aliquet.
@@ -116,23 +116,23 @@ class Index extends React.Component {
             <ul className="statistics">
               <li className="style1">
                 <span className="icon fa-code-fork" />
-                <strong>5,120</strong> Etiam
+                <strong>29+ Coins</strong> Mined
               </li>
               <li className="style2">
                 <span className="icon fa-folder-open-o" />
-                <strong>8,192</strong> Magna
+                <strong>1,000,000</strong> mining powers
               </li>
               <li className="style3">
                 <span className="icon fa-signal" />
-                <strong>2,048</strong> Tempus
+                <strong>2,048</strong> Watts/second
               </li>
               <li className="style4">
                 <span className="icon fa-laptop" />
-                <strong>4,096</strong> Aliquam
+                <strong>4,096</strong> Watts/next second
               </li>
               <li className="style5">
                 <span className="icon fa-diamond" />
-                <strong>1,024</strong> Nullam
+                <strong>1,024</strong> Monies/pocket
               </li>
             </ul>
             <p className="content">
@@ -150,7 +150,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <Link to="/Crypto" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -160,11 +160,8 @@ class Index extends React.Component {
 
           <section id="third" className="main special">
             <header className="major">
-              <h2>A Blog</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>The 27oz Blog</h2>
+              <p>It's more than 27 words.</p>
             </header>
             <footer className="major">
               <ul className="actions">
@@ -179,7 +176,7 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Meet the Team</h2>
               <p>
                 Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
                 posuere. Nulla massa urna, fermentum eget quam aliquet.
@@ -188,13 +185,8 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button special">
+                  <Link to="/About" className="button special">
                     Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
                   </Link>
                 </li>
               </ul>

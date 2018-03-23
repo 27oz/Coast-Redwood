@@ -6,7 +6,7 @@ import logo from '../assets/images/logo.svg'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>About Us</h2>
       <p>
         Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
         magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
@@ -16,21 +16,19 @@ const Footer = props => (
       <ul className="actions">
         <li>
           <Link to="/generic" className="button">
-            Learn More
+            Meet the Team
           </Link>
         </li>
       </ul>
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Get in Touch</h2>
       <dl className="alt">
         <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-        <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
+        <dd>Really need a PO box &bull; Gilbert, AZ 85297 &bull; USA</dd>
         <dt>Email</dt>
         <dd>
-          <a href="#">information@untitled.tld</a>
+          <a href="mailto:hello@27oz.io">hello@27oz.io</a>
         </dd>
       </dl>
       <ul className="icons">
@@ -47,16 +45,6 @@ const Footer = props => (
         <li>
           <a href="#" className="icon fa-instagram alt">
             <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-github alt">
-            <span className="label">GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
           </a>
         </li>
       </ul>

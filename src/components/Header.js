@@ -9,7 +9,11 @@ const Header = props => (
     <span className="logo">
       <img style={{ maxWidth: '6em' }} src={subLogo} alt="" />
     </span>
-    <p>filler text</p>
+    <p>
+      Cryptomining Services, Enterprise Cloud Backups, IT Support
+      <br />
+      We do a lot
+    </p>
   </header>
 )
 

@@ -143,7 +143,7 @@ class Form extends React.Component {
         </Link>
       </div>
     ) : (
-      <div>
+      <div style={{ display: 'inline-block' }}>
         <label style={{ width: '12.5em' }}>
           {this.state.firstNameIsNotEmpty
             ? 'First Name:'
@@ -202,7 +202,7 @@ class Form extends React.Component {
           />
         </label>
         <button
-          style={{ width: '12.5em' }}
+          style={{ width: '12.5em', margin: 'auto' }}
           className="button"
           onClick={this._handleSubmit}
         >
