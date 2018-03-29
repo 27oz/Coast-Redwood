@@ -8,10 +8,10 @@ const Footer = props => (
     <section>
       <h2>About Us</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
+        Best of friends for over a decade, we always knew we could work well
+        together. One day we had an idea for a business a little different that
+        the rest and decided to go all it. Today, we're know as 27oz, and we're
+        here to stay.
       </p>
       <ul className="actions">
         <li>
