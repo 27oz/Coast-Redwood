@@ -1,13 +1,15 @@
-# gatsby-starter-stellar
-Gatsby starter based on the Stellar site template, designed by [HTML5 UP](https://html5up.net/stellar). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# Coast Redwood
 
-## Preview
+Yup, all 27oz Projects are named after trees.
 
-http://gatsby-stellar.surge.sh/
+<hr/>
+Production build is hosted at 27oz.io, current development build is at build.27oz.io.
 
-## Installation
+# Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
-
-Run `gatsby develop` in the terminal to start.
+```bash
+$ git clone https://github.com/27oz/Coast-Redwood.git && cd Coast-Redwood
+$ yarn
+$ gatsby develop
+> localhost:8000/
+```
