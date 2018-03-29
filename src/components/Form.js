@@ -15,6 +15,7 @@ class Form extends React.Component {
       emailIsValid: false,
       signupIsSuccessful: false,
       retrySignup: false,
+      phoneIsNotEmpty: false,
     }
   }
 
@@ -55,8 +56,21 @@ class Form extends React.Component {
     }
   }
 
+  _handlePhoneChange = e => {
+    console.log(this.phoneInput.value)
+    if (this.phoneInput.value === '') {
+      this.setState({
+        phoneIsNotEmpty: false,
+      })
+    } else {
+      this.setState({
+        phoneIsNotEmpty: true,
+      })
+    }
+  }
+
   _handleSubmit = e => {
-    e.preventDefault
+    e.preventDefault()
     if (this.fNameInput.value === '') {
       this.setState({
         firstNameIsNotEmpty: false,
@@ -144,70 +158,79 @@ class Form extends React.Component {
       </div>
     ) : (
       <div style={{ display: 'inline-block' }}>
-        <label style={{ width: '12.5em' }}>
-          {this.state.firstNameIsNotEmpty
-            ? 'First Name:'
-            : 'First Name: * is required'}
-          <input
-            required
-            type="text"
-            placeholder="Sally"
-            style={
-              this.state.firstNameIsNotEmpty
-                ? { boxShadow: '0 0 4px #e1e1e1' }
-                : { boxShadow: '0 0 4px #CC0000' }
-            }
-            onChange={this._handleFirstNameChange}
-            ref={input => (this.fNameInput = input)}
-          />
-        </label>
-        <label style={{ width: '12.5em' }}>
-          {this.state.lastNameIsNotEmpty
-            ? 'Last Name:'
-            : 'Last Name: * is required'}
-          <input
-            type="text"
-            placeholder="Sitwell"
-            style={
-              this.state.lastNameIsNotEmpty
-                ? { boxShadow: '0 0 4px #e1e1e1' }
-                : { boxShadow: '0 0 4px #CC0000' }
-            }
-            onChange={this._handleLastNameChange}
-            ref={input => (this.lNameInput = input)}
-          />
-        </label>
-        <label style={{ width: '12.5em' }}>
-          Phone Number:
-          <input
-            type="text"
-            placeholder="e.g. (480)-867-5309"
-            ref={input => (this.phoneInput = input)}
-          />
-        </label>
-        <label required style={{ width: '12.5em' }}>
-          {this.state.emailIsValid
-            ? 'Your Email:'
-            : 'Your Email: * is required'}
-          <input
-            style={
-              this.state.emailIsValid
-                ? { boxShadow: '0 0 4px #e1e1e1' }
-                : { boxShadow: '0 0 4px #CC0000' }
-            }
-            onChange={this._verifyEmail}
-            type="email"
-            placeholder="sally@bluthhomes.com"
-            ref={input => (this.emailInput = input)}
-          />
-        </label>
-        <button
-          style={{ width: '12.5em', margin: 'auto' }}
-          className="button"
-          onClick={this._handleSubmit}
-        >
-          {this.state.signupIsSuccessful ? 'Thank you!' : 'Request A Quote'}
-        </button>
+        <form>
+          <label>
+            {this.state.firstNameIsNotEmpty
+              ? 'First Name:'
+              : 'First Name: * is required'}
+            <input
+              required
+              type="text"
+              placeholder="Sally"
+              style={
+                this.state.firstNameIsNotEmpty
+                  ? { boxShadow: '0 0 4px #1fc28c' }
+                  : { boxShadow: '0 0 4px #CC0000' }
+              }
+              onChange={this._handleFirstNameChange}
+              ref={input => (this.fNameInput = input)}
+            />
+          </label>
+          <label>
+            {this.state.lastNameIsNotEmpty
+              ? 'Last Name:'
+              : 'Last Name: * is required'}
+            <input
+              type="text"
+              placeholder="Sitwell"
+              style={
+                this.state.lastNameIsNotEmpty
+                  ? { boxShadow: '0 0 4px #1fc28c' }
+                  : { boxShadow: '0 0 4px #CC0000' }
+              }
+              onChange={this._handleLastNameChange}
+              ref={input => (this.lNameInput = input)}
+            />
+          </label>
+          <label>
+            Phone Number:
+            <input
+              type="text"
+              placeholder="e.g. (480)-867-5309"
+              ref={input => (this.phoneInput = input)}
+              style={
+                this.state.phoneIsNotEmpty
+                  ? { boxShadow: '0 0 4px #1fc28c' }
+                  : { boxShadow: '0 0 4px #e1e1e1' }
+              }
+              onChange={this._handlePhoneChange}
+            />
+          </label>
+          <label>
+            {this.state.emailIsValid
+              ? 'Your Email:'
+              : 'Your Email: * is required'}
+            <input
+              style={
+                this.state.emailIsValid
+                  ? { boxShadow: '0 0 4px #1fc28c' }
+                  : { boxShadow: '0 0 4px #CC0000' }
+              }
+              onChange={this._verifyEmail}
+              type="email"
+              placeholder="sally@bluthhomes.com"
+              ref={input => (this.emailInput = input)}
+            />
+          </label>
+          <button
+            type="submit"
+            style={{ width: '12.5em', margin: 'auto' }}
+            className="button"
+            onClick={this._handleSubmit}
+          >
+            {this.state.signupIsSuccessful ? 'Thank you!' : 'Request A Quote'}
+          </button>
+        </form>
       </div>
     )
   }

@@ -2,17 +2,41 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import Waypoint from 'react-waypoint'
 
 import HeaderGeneric from '../components/HeaderGeneric'
+import NavGeneric from '../components/NavGeneric'
 import Form from '../components/Form'
 
 class CloudBackups extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      stickyNavGen: false,
+    }
+  }
+
+  _handleWaypointEnter = () => {
+    this.setState(() => ({ stickyNavGen: false }))
+  }
+
+  _handleWaypointLeave = () => {
+    this.setState(() => ({ stickyNavGen: true }))
+  }
+
   render() {
     return (
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 
         <HeaderGeneric title={'Cloud Backups'} subText={'Powered by Acronis'} />
+
+        <Waypoint
+          onEnter={this._handleWaypointEnter}
+          onLeave={this._handleWaypointLeave}
+        />
+        <NavGeneric title="Cloud Backups" sticky={this.state.stickyNavGen} />
+
         <div id="main">
           <section id="content" className="main special">
             <header className="major">
@@ -82,12 +106,22 @@ class CloudBackups extends React.Component {
               and how much storage you’ll need each month to keep yourself
               protected from disaster!
             </p>
-            <Form />
+            <br />
+            <section id="form" className="main special">
+              <header className="major">
+                <h2>Request a Quote Today</h2>
+              </header>
+              <Form />
+            </section>
           </section>
         </div>
       </div>
     )
   }
+}
+
+CloudBackups.propTypes = {
+  route: React.PropTypes.object,
 }
 
 export default CloudBackups
