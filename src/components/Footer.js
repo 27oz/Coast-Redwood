@@ -25,7 +25,9 @@ const Footer = props => (
       <h2>Get in Touch</h2>
       <dl className="alt">
         <dt>Address</dt>
-        <dd>Really need a PO box &bull; Gilbert, AZ 85297 &bull; USA</dd>
+        <dd>
+          27oz, LLC &bull; PO Box 135 &bull; Queen Creek, AZ 85142 &bull; USA
+        </dd>
         <dt>Email</dt>
         <dd>
           <a href="mailto:hello@27oz.io">hello@27oz.io</a>
@@ -33,17 +35,26 @@ const Footer = props => (
       </dl>
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter alt">
+          <a
+            href="https://twitter.com/27ozofficial"
+            className="icon fa-twitter alt"
+          >
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-facebook alt">
+          <a
+            href="https://www.facebook.com/27ozOfficial/"
+            className="icon fa-facebook alt"
+          >
             <span className="label">Facebook</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-instagram alt">
+          <a
+            href="https://www.instagram.com/27ozoffical/"
+            className="icon fa-instagram alt"
+          >
             <span className="label">Instagram</span>
           </a>
         </li>

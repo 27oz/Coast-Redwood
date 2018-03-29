@@ -48,6 +48,11 @@ class Index extends React.Component {
                   It’s important to not wait until disaster comes to you. Being
                   prepared for data failure will keep your essential data safe.
                 </p>
+                <p>
+                  Request a quote from a trained expert today and find out what
+                  services are available for you. We have solutions for servers,
+                  workstations, websites and much more!
+                </p>
                 <ul className="actions">
                   <li>
                     <Link to="/CloudBackups/" className="button">
@@ -71,24 +76,31 @@ class Index extends React.Component {
                 <span className="icon major style3 fa-life-ring" />
                 <h3>Peace of Mind</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  With 27oz, you can rest assured that any tech issue that may
+                  arise will be handled promptly and professionally. With over 7
+                  years of experience in hardware and software troubleshooting,
+                  we can handle just about anything you throw at us.
                 </p>
               </li>
               <li>
                 <span className="icon major style1 fa-fire" />
                 <h3>There When You Need Us</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  We take pride in our personal and proactive approach to IT
+                  Support. At the heart of 27oz, we are committed to put your
+                  needs as our top priority, and make sure your business is able
+                  to run without a hitch. Emergencies happen, and we will be
+                  there when they do.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-compass" />
                 <h3>The Right Path</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  You can trust in us, as polite, professional and determined
+                  individuals. Our mothers raised us to put others first, and to
+                  work hard. Let us show you that we can be everything you've
+                  been looking for in IT Support.
                 </p>
               </li>
             </ul>
@@ -108,49 +120,17 @@ class Index extends React.Component {
               <h2>Cryptomining Services</h2>
               <p>Coming Soon</p>
             </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-bitcoin" />
-                <strong>27 Coins</strong> Mined
-              </li>
-              <li className="style2">
-                <span className="icon fa-bolt" />
-                <strong>1,000,000</strong> mining powers
-              </li>
-              <li className="style3">
-                <span className="icon fa-plug" />
-                <strong>2,048</strong> Watts/second
-              </li>
-              <li className="style4">
-                <span className="icon fa-battery-full" />
-                <strong>4,096</strong> Watts/next second
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond" />
-                <strong>1,024</strong> Monies/pocket
-              </li>
-            </ul>
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+              Our team has been mining a variety of coins since 2013, and
+              ironically, we've helped progress over 27 different blockchains
+              with our custom equipment. Through the years we've learned what
+              goes into picking the right coin, and building the perfect mining
+              rig to boost efficiency and profitability. We are pleased to
+              announce our plans to offer a full-service mining solution to the
+              public. Stay tuned to find out more, and how you can be apart of
+              the innovative future of Cryptocurrencies and Blockchain
+              technology.
             </p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/Crypto" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
           <section id="third" className="main special">
@@ -179,8 +159,10 @@ class Index extends React.Component {
                 <h3>Joe Dahle</h3>
                 <h4>CEO</h4>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Joe has worked as an IT Professional and Web Developer for the
+                  better part of his career, and even drove a school bus once
+                  upon a time. He loves dogs, coding, and spending time with
+                  family and friends.
                 </p>
               </li>
               <li>

@@ -26,6 +26,11 @@ class ItSupport extends React.Component {
           <br />
           <span>Still under construction, come back soon!</span>
           <br />
+          <span>
+            If you're looking for our remote support page, click{' '}
+            <a href="http://support.27oz.io">here.</a>{' '}
+          </span>
+          <br />
           <br />
           <Link to="/" className="button">
             Return Home
