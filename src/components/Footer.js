@@ -9,8 +9,8 @@ const Footer = props => (
       <h2>About Us</h2>
       <p>
         Best of friends for over a decade, we always knew we could work well
-        together. One day we had an idea for a business a little different that
-        the rest and decided to go all it. Today, we're know as 27oz, and we're
+        together. One day we had an idea for a business a little different than
+        the rest and decided to go all in. Today, we're known as 27oz, and we're
         here to stay.
       </p>
       <ul className="actions">

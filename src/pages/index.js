@@ -178,8 +178,10 @@ class Index extends React.Component {
                 <h3>Tyler Despain</h3>
                 <h4>CTO</h4>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  As an IT Professional and all around problem solver, Tyler
+                  enjoys fixing anything: technology, people, and even food.
+                  While he's not solving problems, he's taking a break and
+                  spending time with his wife.
                 </p>
               </li>
               <li>
@@ -195,9 +197,9 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/ItSupport/" className="button special">
-                    Meet the Team
-                  </Link>
+                  <a href="http://blog.27oz.io" className="button special">
+                    Read Here
+                  </a>
                 </li>
               </ul>
             </footer>

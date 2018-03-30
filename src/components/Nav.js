@@ -31,7 +31,7 @@ const Nav = props => (
       </li>
       <li>
         <Scroll type="id" element="cta">
-          <a href="#">Connect With Us</a>
+          <a href="#">Meet the Team</a>
         </Scroll>
       </li>
     </Scrollspy>
