@@ -10,7 +10,9 @@ class ItSupport extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+        <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
+          <meta name="theme-color" content="#c44871" />
+        </Helmet>
 
         <HeaderGeneric title={'IT Support'} subText={'From the Pros'} />
 
