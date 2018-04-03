@@ -169,8 +169,10 @@ class Index extends React.Component {
                 <h3>Kico Cortes</h3>
                 <h4>CFO</h4>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Kico has been involved with speculative investments for a long
+                  time. From stocks and bonds to Forex and Crypto, He loves it
+                  all. Kico enjoys hobbies that can combine his love for
+                  technology and money together.
                 </p>
               </li>
               <li>
@@ -189,8 +191,9 @@ class Index extends React.Component {
                 <h3>Xavier Acosta</h3>
                 <h4>CMO</h4>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Always a people person, Xavier has been able to form countless
+                  relationships with those around him. His Snaps are on fleek
+                  and he is always up to date on memes.
                 </p>
               </li>
             </ul>

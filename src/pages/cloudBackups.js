@@ -109,7 +109,7 @@ class CloudBackups extends React.Component {
             <br />
             <section id="form" className="main special">
               <header className="major">
-                <h2>Request a Quote Today</h2>
+                <h2>Request a Free Consultation Today</h2>
               </header>
               <Form />
             </section>
