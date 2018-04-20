@@ -1,0 +1,178 @@
+/* Price Cards */
+
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  top: 0rem;
+  left: 0rem;
+  position: relative;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  &__side {
+    height: 19rem;
+    transition: all 0.8s ease;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+
+    &--front {
+      box-shadow: 0 1.5rem 6rem rgba(#333, 0.25);
+    }
+
+    &--back {
+      transform: rotateY(180deg);
+      box-shadow: 0 1.5rem 6rem rgba(#333, 0.15);
+      position: absolute;
+    }
+
+    @include breakpoint(large) {
+      height: 24rem;
+    }
+
+    @include breakpoint(medium) {
+      height: 19rem;
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  &__price-box {
+    &:hover {
+      box-shadow: 0 1.5rem 4rem rgba(#333, 0.2);
+      transform: translateY(-0.25rem);
+    }
+  }
+
+  &__price--title {
+    display: block;
+    padding: 2rem 2rem;
+
+    &:after {
+      content: '';
+      width: 5.5rem;
+      border-radius: 2px;
+      top: 4.5rem;
+      height: 2px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.5rem;
+      background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    }
+  }
+
+  &__price--price {
+    // position: absolute;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    // padding: 0.5rem;
+  }
+
+  &__price--details {
+    text-transform: uppercase;
+  }
+
+  &__cta {
+    padding: 1.5rem;
+
+    ul {
+      list-style: none;
+      width: 75%;
+      margin: 0 auto;
+
+      @include breakpoint(large) {
+        width: 85%;
+      }
+
+      @include breakpoint(medium) {
+        width: 90%;
+      }
+
+      li {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #333;
+        }
+
+        &:last-child {
+          margin-bottom: 2rem;
+        }
+
+        @include breakpoint(large) {
+          font-size: 1rem;
+        }
+
+        @include breakpoint(medium) {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(small) {
+    height: auto;
+    border-radius: 3px;
+
+    box-shadow: 0 1.5rem 4rem rgba(#333, 0.15);
+
+    &__side {
+      height: auto;
+      position: relative;
+      box-shadow: none;
+
+      &--back {
+        transform: rotateY(0);
+      }
+
+      &--back-2 {
+        transform: rotateY(0);
+      }
+    }
+
+    &:hover &__side--front {
+      transform: rotateY(0);
+    }
+
+    &__details {
+      padding: 0 3rem;
+    }
+
+    // FRONT SIDE STYLING
+    &__cta {
+      position: relative;
+      top: 0%;
+      left: 0%;
+      transform: translate(0);
+      width: 100%;
+      padding: 0rem 4rem 4rem 4rem;
+    }
+
+    &__price--price {
+      // position: absolute;
+      width: 100%;
+      margin-top: 1rem;
+      margin-bottom: 0rem;
+      font-size: 3rem;
+      // padding: 0.5rem;
+    }
+  }
+}

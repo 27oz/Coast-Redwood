@@ -1,0 +1,42 @@
+.row {
+  max-width: 100%;
+  margin: auto 0;
+
+  &:not(:last-child) {
+    margin-bottom: 4rem;
+
+    @include breakpoint(small) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @include breakpoint(small) {
+    max-width: 40rem;
+  }
+
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  [class^='col-'] {
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+
+      @include breakpoint(small) {
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    @include breakpoint(small) {
+      width: 100% !important;
+    }
+  }
+  .col-1-of-2 {
+    width: calc((100% - 4rem) / 2);
+  }
+}
