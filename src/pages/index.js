@@ -56,7 +56,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/CloudBackups/" className="button">
+                    <Link to="/cloudBackups/" className="button">
                       Learn More
                     </Link>
                   </li>
