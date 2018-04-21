@@ -19,6 +19,34 @@
     letter-spacing: _font(letter-spacing);
   }
 
+  // .header__home {
+  //   display: none;
+  //
+  //   &--mobile {
+  //     @include breakpoint(small) {
+  //       display: block;
+  //       position: fixed;
+  //       top: 1rem;
+  //       left: 1.25rem;
+  //       font-size: 2.75rem;
+  //       // background-image: linear-gradient(
+  //       //   to right,
+  //       //   rgba(196, 72, 113, 0.25),
+  //       //   rgba(196, 72, 113, 1)
+  //       // );
+  //       color: rgba(196, 72, 113, 0.8);
+  //       // background-color: #333;
+  //       border-radius: 50%;
+  //       width: 3rem;
+  //       height: 3rem;
+  //
+  //       img {
+  //         width: 30%;
+  //       }
+  //     }
+  //   }
+  // }
+
   &.alt {
     @include padding(6em, 5em, (1em, 0, 0, 0));
 
