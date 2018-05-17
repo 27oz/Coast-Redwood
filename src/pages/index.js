@@ -6,6 +6,7 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
+import Signup from '../components/Signup'
 
 class Index extends React.Component {
   constructor(props) {
@@ -108,7 +109,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/ItSupport/" className="button">
+                  <Link to="/itSupport/" className="button">
                     Learn More
                   </Link>
                 </li>
