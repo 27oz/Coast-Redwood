@@ -53,9 +53,9 @@ class CloudBackups extends React.Component {
             <div className="row">
               <div className="col-1-of-2">
                 <Card
-                  price="$0.20/GB"
+                  price="*$0.20/GB"
                   title="Desktop & Server"
-                  details="1-click full system backups"
+                  details="1-click full system backups &#10; Starting at"
                   interest1="Restore to dissimilar hardware"
                   interest2="Customize your retention"
                   interest3="manage from anywhere"

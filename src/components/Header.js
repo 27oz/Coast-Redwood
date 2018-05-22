@@ -22,19 +22,16 @@ const Header = props => (
         <ul className="navigation__list">
           <li className="navigation__item">
             <Link to="/" className="navigation__link">
-              {' '}
-              Home{' '}
+              Home
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="/cloudBackups" className="navigation__link">
-              {' '}
               Cloud Backups
             </Link>
           </li>
           <li className="navigation__item">
             <Link to="itSupport" className="navigation__link">
-              {' '}
               IT Support
             </Link>
           </li>

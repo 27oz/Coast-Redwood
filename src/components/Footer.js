@@ -19,6 +19,11 @@ const Footer = props => (
             Meet the Team
           </Link>
         </li>
+        <li>
+          <Link to="/about" className="button">
+            Read our Blog
+          </Link>
+        </li>
       </ul>
     </section>
     <section>
