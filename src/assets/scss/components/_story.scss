@@ -1,0 +1,113 @@
+.story {
+  display: grid;
+
+  grid-template-rows: 20rem 20rem;
+  &__item {
+    display: grid;
+
+    grid-template-columns: [c1] 14rem [ c2 c3 ] auto [ c4 c5 ] 14rem [c6];
+    grid-template-rows: 20rem;
+    grid-column-gap: 2rem;
+    align-items: end;
+    justify-content: center;
+  }
+
+  &__title {
+    align-items: end;
+    margin-bottom: 0;
+
+    &--1 {
+      grid-column: c1 / c2;
+      grid-row: 1 / 2;
+      text-align: start;
+
+      & > h2:after {
+        content: '';
+        width: 100%;
+        border-radius: 2px;
+        top: 4.5rem;
+        height: 2px;
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 0.5rem;
+        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+      }
+    }
+
+    &--2 {
+      grid-column: c5 / c6;
+      grid-row: 1 / 2;
+      text-align: end;
+
+      & > h2:after {
+        content: '';
+        width: 100%;
+        border-radius: 2px;
+        top: 4.5rem;
+        height: 2px;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 0.5rem;
+        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+      }
+    }
+
+    & > h2,
+    & > h4 {
+      // color: #fff !important;
+    }
+  }
+
+  &__description {
+    padding: 0 2rem;
+    align-self: center;
+    justify-content: center;
+
+    &--1 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+
+    &--2 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__cover {
+    justify-content: stretch;
+    overflow: hidden;
+    height: 20rem;
+    position: relative;
+    background-color: rgba(orangered, 0.5);
+
+    &--start {
+      clip-path: polygon(15% 0, 100% 0, 100% 100%, 40% 100%);
+      grid-row: 1 / 2;
+      grid-column: 1 / span 3;
+      transition: 0.4s ease;
+      &:hover {
+      }
+    }
+
+    &--end {
+      position: relative;
+      grid-row: 1 / 2;
+      grid-column: 1 / span 3;
+      background-image: url(../../assets/images/market.png);
+      background-size: contain;
+      transition: 0.4s ease;
+      clip-path: polygon(0 0, 85% 0, 60% 100%, 0% 100%);
+    }
+  }
+
+  &__item:hover &__cover--start {
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 85% 100%);
+  }
+
+  &__item:hover &__cover--end {
+    clip-path: polygon(0 0, 25% 0, 15% 100%, 0% 100%);
+  }
+}

@@ -9,6 +9,8 @@ import Nav from '../components/Nav'
 
 import joe from '../assets/images/joe.jpg'
 import tyler from '../assets/images/tyler.jpg'
+import xavier from '../assets/images/xavier.jpg'
+import kico from '../assets/images/kico.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -68,11 +70,11 @@ class Index extends React.Component {
             </div>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="meet" className="main special">
             <header className="major">
               <h2>Meet the Team</h2>
             </header>
-            <ul className="features">
+            <ul className="features__team">
               <li>
                 <img
                   src={joe}
@@ -88,7 +90,10 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-fire" />
+                <img
+                  src={kico}
+                  className="icon major style1 fa-fire user__image"
+                />
                 <h3>Kico Cortes</h3>
                 <h4>CFO</h4>
                 <p>
@@ -113,7 +118,10 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-compass" />
+                <img
+                  src={xavier}
+                  className="icon major style5 fa-compass user__image"
+                />
                 <h3>Xavier Acosta</h3>
                 <h4>CMO</h4>
                 <p>
@@ -123,54 +131,52 @@ class Index extends React.Component {
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="do" className="main special">
             <header className="major">
               <h2>What We Do</h2>
             </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style3 fa-life-ring" />
-                <h3>IT Support</h3>
-                <h4>CEO</h4>
-                <p>
-                  Joe has worked as an IT Professional and Web Developer for the
-                  better part of his career, and even drove a school bus once
-                  upon a time. He loves dogs, coding, and spending time with
-                  family and friends.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style1 fa-fire" />
-                <h3>Kico Cortes</h3>
-                <h4>CFO</h4>
-                <p>
-                  Kico has been involved with speculative investments for a long
-                  time. From stocks and bonds to Forex and Crypto, He loves it
-                  all. Kico enjoys hobbies that can combine his love for
-                  technology and money together.
-                </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
+            <div className="story">
+              <div className="story__item">
+                <div className="story__title--1">
+                  <h2>27bytes</h2>
+                  <h4>Enterprise Level Cloud Backups</h4>
+                </div>
+                <div className="story__description--1">
+                  <p>
+                    nec feugiat vel, varius eu elit. Suspendisse sed lacinia
+                    diam. Quisque id arcu elit. Quisque diam sapien, suscipit
+                    bibendum nulla id, dictum ultricies ipsum. Ut lacinia ex
+                    iaculis, ornare mi semper, laoreet enim. Praesent placerat
+                    elit diam, aliquet pretium ex tincidunt et. Nulla finibus
+                    pellentesque fermentum. Mauris eleifend est justo, et tempor
+                    sapien pellentesque sed. Mauris non ipsum egestas, congue
+                    quam id, mattis nibh.
+                  </p>
+                </div>
+                <div className="story__cover story__cover--start">&nbsp;</div>
+              </div>
+              <div className="story__item">
+                <div className="story__cover story__cover--end">&nbsp;</div>
+                <div className="story__description--2">
+                  <p>
+                    nec feugiat vel, varius eu elit. Suspendisse sed lacinia
+                    diam. Quisque id arcu elit. Quisque diam sapien, suscipit
+                    bibendum nulla id, dictum ultricies ipsum. Ut lacinia ex
+                    iaculis, ornare mi semper, laoreet enim. Praesent placerat
+                    elit diam, aliquet pretium ex tincidunt et. Nulla finibus
+                    pellentesque fermentum. Mauris eleifend est justo, et tempor
+                    sapien pellentesque sed. Mauris non ipsum egestas, congue
+                    quam id, mattis nibh.
+                  </p>
+                </div>
+                <div className="story__title--2">
+                  <h2>Crypto Services</h2>
+                  <h4>Expert Consultations in Blockchain Technology</h4>
+                </div>
+              </div>
+            </div>
           </section>
 
           <section id="third" className="main special">
@@ -195,35 +201,6 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
-          </section>
-
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Cloud Backups</h2>
-                </header>
-                <p>
-                  It’s important to not wait until disaster comes to you. Being
-                  prepared for data failure will keep your essential data safe.
-                </p>
-                <p>
-                  Request a quote from a trained expert today and find out what
-                  services are available for you. We have solutions for servers,
-                  workstations, websites and much more!
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/cloudBackups/" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <span>
-                <span className="icon major style2 fa-cloud-upload" />
-              </span>
-            </div>
           </section>
 
           <section id="first" className="main special">
@@ -306,22 +283,6 @@ class Index extends React.Component {
               the innovative future of Cryptocurrencies and Blockchain
               technology.
             </p>
-          </section>
-
-          <section id="third" className="main special">
-            <header className="major">
-              <h2>The 27oz Blog</h2>
-              <p>It's more than 27 words.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
           </section>
         </div>
       </div>
