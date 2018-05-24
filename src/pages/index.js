@@ -192,63 +192,6 @@ class Index extends React.Component {
                 Mauris non ipsum egestas, congue quam id, mattis nibh.
               </p>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="first" className="main special">
-            <header className="major">
-              <h2>IT Support</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style3 fa-life-ring" />
-                <h3>Peace of Mind</h3>
-                <p>
-                  With 27oz, you can rest assured that any tech issue that may
-                  arise will be handled promptly and professionally. With over 7
-                  years of experience in hardware and software troubleshooting,
-                  we can handle just about anything you throw at us.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style1 fa-fire" />
-                <h3>There When You Need Us</h3>
-                <p>
-                  We take pride in our personal and proactive approach to IT
-                  Support. At the heart of 27oz, we are committed to put your
-                  needs as our top priority, and make sure your business is able
-                  to run without a hitch. Emergencies happen, and we will be
-                  there when they do.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-compass" />
-                <h3>The Right Path</h3>
-                <p>
-                  You can trust in us, as polite, professional and determined
-                  individuals. Our mothers raised us to put others first, and to
-                  work hard. Let us show you that we can be everything you've
-                  been looking for in IT Support.
-                </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/itSupport/" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
           <section id="third" className="main special">
@@ -265,24 +208,6 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
-          </section>
-
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Cryptomining Services</h2>
-              <p>Coming Soon</p>
-            </header>
-            <p className="content">
-              Our team has been mining a variety of coins since 2013, and
-              ironically, we've helped progress over 27 different blockchains
-              with our custom equipment. Through the years we've learned what
-              goes into picking the right coin, and building the perfect mining
-              rig to boost efficiency and profitability. We are pleased to
-              announce our plans to offer a full-service mining solution to the
-              public. Stay tuned to find out more, and how you can be apart of
-              the innovative future of Cryptocurrencies and Blockchain
-              technology.
-            </p>
           </section>
         </div>
       </div>

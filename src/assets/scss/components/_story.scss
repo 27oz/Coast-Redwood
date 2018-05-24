@@ -88,12 +88,12 @@
       grid-row: 1 / 2;
       grid-column: 1 / span 3;
       transition: 0.4s ease;
-      &:hover {
-      }
+      background-image: url(../../assets/images/balloon.jpg);
+      background-size: cover;
     }
 
     &--end {
-      position: relative;
+      // position: relative;
       grid-row: 1 / 2;
       grid-column: 1 / span 3;
       background-image: url(../../assets/images/market.png);
