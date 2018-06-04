@@ -97,7 +97,8 @@
     li {
       width: calc(#{(100% / 2)} - #{_size(element-margin)});
 
-      &:nth-child(3) {
+      &:nth-child(3),
+      &:nth-child(4) {
         margin-top: (_size(element-margin) * 1.5);
       }
     }
