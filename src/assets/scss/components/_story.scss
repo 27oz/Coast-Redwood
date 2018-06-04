@@ -1,7 +1,8 @@
 .story {
   display: grid;
 
-  grid-template-rows: 20rem 20rem;
+  grid-template-rows: repeat(auto-fill, minmax(20rem, 1fr));
+
   &__item {
     display: grid;
 
@@ -10,18 +11,53 @@
     grid-column-gap: 2rem;
     align-items: end;
     justify-content: center;
+
+    @include breakpoint(large) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      align-items: start;
+    }
+
+    @media (hover: none) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      align-items: start;
+    }
   }
 
   &__title {
     align-items: end;
     margin-bottom: 0;
 
+    @include breakpoint(large) {
+      align-items: start;
+    }
+
+    @media (hover: none) {
+      align-items: start;
+    }
+
     &--1 {
       grid-column: c1 / c2;
       grid-row: 1 / 2;
       text-align: start;
 
+      @include breakpoint(large) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        text-align: center;
+        width: 100%;
+      }
+
+      @media (hover: none) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        text-align: center;
+        width: 100%;
+      }
+
       & > h2:after {
+        //This is the gradient bar under the title
         content: '';
         width: 100%;
         border-radius: 2px;
@@ -32,6 +68,16 @@
         margin-right: auto;
         margin-top: 0.5rem;
         background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+
+        @include breakpoint(large) {
+          width: 8rem;
+          margin-left: auto;
+        }
+
+        @media (hover: none) {
+          width: 8rem;
+          margin-left: auto;
+        }
       }
     }
 
@@ -39,6 +85,20 @@
       grid-column: c5 / c6;
       grid-row: 1 / 2;
       text-align: end;
+
+      @include breakpoint(large) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        text-align: center;
+        width: 100%;
+      }
+
+      @media (hover: none) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        text-align: center;
+        width: 100%;
+      }
 
       & > h2:after {
         content: '';
@@ -51,12 +111,17 @@
         margin-right: 0;
         margin-top: 0.5rem;
         background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-      }
-    }
 
-    & > h2,
-    & > h4 {
-      // color: #fff !important;
+        @include breakpoint(large) {
+          width: 8rem;
+          margin-right: auto;
+        }
+
+        @media (hover: none) {
+          width: 8rem;
+          margin-right: auto;
+        }
+      }
     }
   }
 
@@ -65,14 +130,46 @@
     align-self: center;
     justify-content: center;
 
+    @include breakpoint(large) {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (hover: none) {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     &--1 {
       grid-column: 2 / 3;
       grid-row: 1 / 2;
+
+      @include breakpoint(large) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
+
+      @media (hover: none) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
     }
 
     &--2 {
       grid-column: 2 / 3;
       grid-row: 1 / 2;
+
+      @include breakpoint(large) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
+
+      @media (hover: none) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
     }
   }
 
@@ -82,6 +179,9 @@
     height: 20rem;
     position: relative;
     background-color: rgba(orangered, 0.5);
+    @include breakpoint(large) {
+      background-color: rgba(0, 0, 0, 0);
+    }
 
     &--start {
       clip-path: polygon(15% 0, 100% 0, 100% 100%, 40% 100%);
@@ -90,6 +190,34 @@
       transition: 0.4s ease;
       background-image: url(../../assets/images/balloon.jpg);
       background-size: cover;
+
+      @include breakpoint(large) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+
+        background: linear-gradient(
+            to right,
+            rgba(196, 72, 113, 0.2),
+            rgba(196, 72, 113, 0.4)
+          ),
+          url(../../assets/images/balloon.jpg);
+        background-size: cover;
+      }
+
+      @media (hover: none) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+
+        background: linear-gradient(
+            to right,
+            rgba(196, 72, 113, 0.2),
+            rgba(196, 72, 113, 0.4)
+          ),
+          url(../../assets/images/balloon.jpg);
+        background-size: cover;
+      }
     }
 
     &--end {
@@ -98,8 +226,37 @@
       grid-column: 1 / span 3;
       background-image: url(../../assets/images/market.png);
       background-size: contain;
+      // background-repeat: no-repeat;
       transition: 0.4s ease;
       clip-path: polygon(0 0, 85% 0, 60% 100%, 0% 100%);
+
+      @include breakpoint(large) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+        background: linear-gradient(
+            to right,
+            rgba(72, 187, 196, 0.2),
+            rgba(72, 187, 196, 0.4)
+          ),
+          url(../../assets/images/market.png);
+        background-size: cover;
+      }
+
+      @media (hover: none) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+        background: linear-gradient(
+            to right,
+            rgba(72, 187, 196, 0.2),
+            rgba(72, 187, 196, 0.4)
+          ),
+          url(../../assets/images/market.png);
+        background-size: cover;
+      }
     }
   }
 

@@ -139,11 +139,11 @@ class Index extends React.Component {
             </header>
             <div className="story">
               <div className="story__item">
-                <div className="story__title--1">
+                <div className="story__title story__title--1">
                   <h2>27bytes</h2>
                   <h4>Enterprise Level Cloud Backups</h4>
                 </div>
-                <div className="story__description--1">
+                <div className="story__description story__description--1">
                   <p>
                     nec feugiat vel, varius eu elit. Suspendisse sed lacinia
                     diam. Quisque id arcu elit. Quisque diam sapien, suscipit
@@ -159,7 +159,7 @@ class Index extends React.Component {
               </div>
               <div className="story__item">
                 <div className="story__cover story__cover--end">&nbsp;</div>
-                <div className="story__description--2">
+                <div className="story__description story__description--2">
                   <p>
                     nec feugiat vel, varius eu elit. Suspendisse sed lacinia
                     diam. Quisque id arcu elit. Quisque diam sapien, suscipit
@@ -171,7 +171,7 @@ class Index extends React.Component {
                     quam id, mattis nibh.
                   </p>
                 </div>
-                <div className="story__title--2">
+                <div className="story__title story__title--2">
                   <h2>Crypto Services</h2>
                   <h4>Expert Consultations in Blockchain Technology</h4>
                 </div>
