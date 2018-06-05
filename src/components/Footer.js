@@ -20,9 +20,9 @@ const Footer = props => (
           </Link>
         </li>
         <li>
-          <Link to="/about" className="button">
-            Read our Blog
-          </Link>
+          <a href="https://blog.27oz.io" className="button">
+            Read our blog
+          </a>
         </li>
       </ul>
     </section>
