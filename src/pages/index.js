@@ -44,32 +44,6 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main special">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Who's behind 27oz</h2>
-                </header>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pharetra ex dolor, in vulputate magna vulputate ac. Sed
-                  ultrices augue convallis, hendrerit ligula placerat, interdum
-                  nunc. Sed orci lacus, ultricies aliquam leo bibendum, mollis
-                  auctor diam. Etiam eu risus porta, laoreet augue ac, luctus
-                  eros. Etiam sem eros, suscipit
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pharetra ex dolor, in vulputate magna vulputate ac. Sed
-                  ultrices augue convallis, hendrerit ligula placerat, interdum
-                  nunc. Sed orci lacus, ultricies aliquam leo bibendum, mollis
-                  auctor diam. Etiam eu risus porta, laoreet augue ac, luctus
-                  eros. Etiam sem eros, suscipit
-                </p>
-              </div>
-            </div>
-          </section>
-
           <section id="meet" className="main special">
             <header className="major">
               <h2>Meet the Team</h2>
@@ -144,16 +118,18 @@ class Index extends React.Component {
                   <h4>Enterprise Level Cloud Backups</h4>
                 </div>
                 <div className="story__description story__description--1">
-                  <p>
-                    nec feugiat vel, varius eu elit. Suspendisse sed lacinia
-                    diam. Quisque id arcu elit. Quisque diam sapien, suscipit
-                    bibendum nulla id, dictum ultricies ipsum. Ut lacinia ex
-                    iaculis, ornare mi semper, laoreet enim. Praesent placerat
-                    elit diam, aliquet pretium ex tincidunt et. Nulla finibus
-                    pellentesque fermentum. Mauris eleifend est justo, et tempor
-                    sapien pellentesque sed. Mauris non ipsum egestas, congue
-                    quam id, mattis nibh.
-                  </p>
+                  <ul>
+                    <li>Restore your entire computer to dissimilar hardware</li>
+                    <li>Secure your data against ransomware</li>
+                    <li>Manage your data and retention from anywhere</li>
+                    <li>
+                      Disaster Recovery allows you to restore your server to our
+                      cloud in minutes
+                    </li>
+                    <li>
+                      Protect all your workstations, and servers seemlessly
+                    </li>
+                  </ul>
                 </div>
                 <div className="story__cover story__cover--start">&nbsp;</div>
               </div>
@@ -161,53 +137,35 @@ class Index extends React.Component {
                 <div className="story__cover story__cover--end">&nbsp;</div>
                 <div className="story__description story__description--2">
                   <p>
-                    nec feugiat vel, varius eu elit. Suspendisse sed lacinia
-                    diam. Quisque id arcu elit. Quisque diam sapien, suscipit
-                    bibendum nulla id, dictum ultricies ipsum. Ut lacinia ex
-                    iaculis, ornare mi semper, laoreet enim. Praesent placerat
-                    elit diam, aliquet pretium ex tincidunt et. Nulla finibus
-                    pellentesque fermentum. Mauris eleifend est justo, et tempor
-                    sapien pellentesque sed. Mauris non ipsum egestas, congue
-                    quam id, mattis nibh.
+                    Our team has been mining a variety of coins since 2013, and
+                    ironically, we&apos;ve helped progress over&nbsp;
+                    <strong>27</strong> different blockchains with our custom
+                    equipment. Stay tuned to join us in our next big endeavor
                   </p>
                 </div>
                 <div className="story__title story__title--2">
                   <h2>Crypto Services</h2>
-                  <h4>Expert Consultations in Blockchain Technology</h4>
+                  <h4>
+                    <i>Coming Soon!</i>
+                  </h4>
                 </div>
               </div>
             </div>
           </section>
 
-          <section id="third" className="main special">
+          <section id="why" className="main special">
             <header className="major">
               <h2>Why US</h2>
               <p>
-                nec feugiat vel, varius eu elit. Suspendisse sed lacinia diam.
-                Quisque id arcu elit. Quisque diam sapien, suscipit bibendum
-                nulla id, dictum ultricies ipsum. Ut lacinia ex iaculis, ornare
-                mi semper, laoreet enim. Praesent placerat elit diam, aliquet
-                pretium ex tincidunt et. Nulla finibus pellentesque fermentum.
-                Mauris eleifend est justo, et tempor sapien pellentesque sed.
-                Mauris non ipsum egestas, congue quam id, mattis nibh.
+                At <strong>&lt;27oz /&gt;</strong> we take a unique approach at
+                our services by removing the noise, fluff and the unneccessary.
+                We aim for what makes sense, and for what is predictable to you
+                as a client. We&apos;ve adopted a{' '}
+                <a href="blog.27oz.io/zen">Rules to Live By</a>. We believe that
+                simple is better than complex, that the temptation to guess is
+                not tempting enough and that we are all equal.
               </p>
             </header>
-          </section>
-
-          <section id="third" className="main special">
-            <header className="major">
-              <h2>The 27oz Blog</h2>
-              <p>It's more than 27 words.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
           </section>
         </div>
       </div>

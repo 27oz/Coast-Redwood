@@ -14,7 +14,10 @@ class Crypto extends React.Component {
           <meta name="theme-color" content="#c44871" />
         </Helmet>
 
-        <HeaderGeneric title={'Crypto'} subText={'From the Millenials'} />
+        <HeaderGeneric
+          title={'Crypto Services'}
+          subText={'Coming Soon, Stay Tuned'}
+        />
 
         <p className="logo" style={{ textAlign: 'center' }}>
           <img style={{ maxWidth: '6em' }} src={logo} alt="" />
