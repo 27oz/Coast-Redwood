@@ -6,7 +6,11 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import Signup from '../components/Signup'
+
+import joe from '../assets/images/joe.jpg'
+import tyler from '../assets/images/tyler.jpg'
+import xavier from '../assets/images/xavier.jpg'
+import kico from '../assets/images/kico.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -40,124 +44,16 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Cloud Backups</h2>
-                </header>
-                <p>
-                  It’s important to not wait until disaster comes to you. Being
-                  prepared for data failure will keep your essential data safe.
-                </p>
-                <p>
-                  Request a quote from a trained expert today and find out what
-                  services are available for you. We have solutions for servers,
-                  workstations, websites and much more!
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/cloudBackups/" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <span>
-                <span className="icon major style2 fa-cloud-upload" />
-              </span>
-            </div>
-          </section>
-
-          <section id="first" className="main special">
-            <header className="major">
-              <h2>IT Support</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style3 fa-life-ring" />
-                <h3>Peace of Mind</h3>
-                <p>
-                  With 27oz, you can rest assured that any tech issue that may
-                  arise will be handled promptly and professionally. With over 7
-                  years of experience in hardware and software troubleshooting,
-                  we can handle just about anything you throw at us.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style1 fa-fire" />
-                <h3>There When You Need Us</h3>
-                <p>
-                  We take pride in our personal and proactive approach to IT
-                  Support. At the heart of 27oz, we are committed to put your
-                  needs as our top priority, and make sure your business is able
-                  to run without a hitch. Emergencies happen, and we will be
-                  there when they do.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-compass" />
-                <h3>The Right Path</h3>
-                <p>
-                  You can trust in us, as polite, professional and determined
-                  individuals. Our mothers raised us to put others first, and to
-                  work hard. Let us show you that we can be everything you've
-                  been looking for in IT Support.
-                </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/itSupport/" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Cryptomining Services</h2>
-              <p>Coming Soon</p>
-            </header>
-            <p className="content">
-              Our team has been mining a variety of coins since 2013, and
-              ironically, we've helped progress over 27 different blockchains
-              with our custom equipment. Through the years we've learned what
-              goes into picking the right coin, and building the perfect mining
-              rig to boost efficiency and profitability. We are pleased to
-              announce our plans to offer a full-service mining solution to the
-              public. Stay tuned to find out more, and how you can be apart of
-              the innovative future of Cryptocurrencies and Blockchain
-              technology.
-            </p>
-          </section>
-
-          <section id="third" className="main special">
-            <header className="major">
-              <h2>The 27oz Blog</h2>
-              <p>It's more than 27 words.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="cta" className="main special">
+          <section id="meet" className="main special">
             <header className="major">
               <h2>Meet the Team</h2>
             </header>
-            <ul className="features">
+            <ul className="features__team">
               <li>
-                <span className="icon major style3 fa-life-ring" />
+                <img
+                  src={joe}
+                  className="icon major style3 fa-life-ring user__image"
+                />
                 <h3>Joe Dahle</h3>
                 <h4>CEO</h4>
                 <p>
@@ -168,7 +64,10 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-fire" />
+                <img
+                  src={kico}
+                  className="icon major style1 fa-fire user__image"
+                />
                 <h3>Kico Cortes</h3>
                 <h4>CFO</h4>
                 <p>
@@ -179,7 +78,10 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-compass" />
+                <img
+                  src={tyler}
+                  className="icon major style5 fa-compass user__image"
+                />
                 <h3>Tyler Despain</h3>
                 <h4>CTO</h4>
                 <p>
@@ -190,7 +92,10 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-compass" />
+                <img
+                  src={xavier}
+                  className="icon major style5 fa-compass user__image"
+                />
                 <h3>Xavier Acosta</h3>
                 <h4>CMO</h4>
                 <p>
@@ -200,15 +105,67 @@ class Index extends React.Component {
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <a href="http://blog.27oz.io" className="button special">
-                    Read Here
-                  </a>
-                </li>
-              </ul>
-            </footer>
+          </section>
+
+          <section id="do" className="main special">
+            <header className="major">
+              <h2>What We Do</h2>
+            </header>
+            <div className="story">
+              <div className="story__item">
+                <div className="story__title story__title--1">
+                  <h2>27bytes</h2>
+                  <h4>Enterprise Level Cloud Backups</h4>
+                </div>
+                <div className="story__description story__description--1">
+                  <ul>
+                    <li>Restore your entire computer to dissimilar hardware</li>
+                    <li>Secure your data against ransomware</li>
+                    <li>Manage your data and retention from anywhere</li>
+                    <li>Restore your server to the cloud</li>
+                    <li>
+                      Protect all your workstations, and servers seemlessly
+                    </li>
+                    <Link to="/CloudBackups#form" className="button">
+                      Sign Up
+                    </Link>
+                  </ul>
+                </div>
+                <div className="story__cover story__cover--start">&nbsp;</div>
+              </div>
+              <div className="story__item">
+                <div className="story__cover story__cover--end">&nbsp;</div>
+                <div className="story__description story__description--2">
+                  <p>
+                    Our team has been mining a variety of coins since 2013, and
+                    ironically, we&apos;ve helped progress over&nbsp;
+                    <strong>27</strong> different blockchains with our custom
+                    equipment. Stay tuned to join us in our next big endeavor
+                  </p>
+                </div>
+                <div className="story__title story__title--2">
+                  <h2>Crypto Services</h2>
+                  <h4>
+                    <i>Coming Soon!</i>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="why" className="main special">
+            <header className="major">
+              <h2>Why US</h2>
+              <p>
+                At <strong>&lt;27oz /&gt;</strong> we take a unique approach at
+                our services by removing the noise, fluff and the unneccessary.
+                We aim for what makes sense, and for what is predictable to you
+                as a client. We&apos;ve adopted a{' '}
+                <a href="blog.27oz.io/zen">Rules to Live By</a>. We believe that
+                simple is better than complex, that the temptation to guess is
+                not tempting enough and that we are all equal.
+              </p>
+            </header>
           </section>
         </div>
       </div>

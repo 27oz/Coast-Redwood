@@ -32,7 +32,10 @@ class CloudBackups extends React.Component {
           <meta name="theme-color" content="#c44871" />
         </Helmet>
 
-        <HeaderGeneric title={'Cloud Backups'} subText={'Powered by Acronis'} />
+        <HeaderGeneric
+          title={'27bytes'}
+          subText={'Enterprise Cloud Backups Powered by Acronis'}
+        />
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -53,9 +56,9 @@ class CloudBackups extends React.Component {
             <div className="row">
               <div className="col-1-of-2">
                 <Card
-                  price="$0.20/GB"
+                  price="*$0.20/GB"
                   title="Desktop & Server"
-                  details="1-click full system backups"
+                  details="1-click full system backups &#10; Starting at"
                   interest1="Restore to dissimilar hardware"
                   interest2="Customize your retention"
                   interest3="manage from anywhere"
@@ -147,7 +150,7 @@ class CloudBackups extends React.Component {
 
           <section id="form" className="main special">
             <header className="major">
-              <h2>Request a Free Consultation Today</h2>
+              <h2>Request a Free Trial Today</h2>
               <p>
                 A free 30 day trial is our gift to you! We know you'll love it.<br />
                 Sign up today, and know peace of mind is only moments away.
