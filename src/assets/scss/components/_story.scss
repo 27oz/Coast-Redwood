@@ -6,7 +6,7 @@
   &__item {
     display: grid;
 
-    grid-template-columns: [c1] 14rem [ c2 c3 ] auto [ c4 c5 ] 14rem [c6];
+    grid-template-columns: [c1] 14rem [ c2 c3 ] 1fr [ c4 c5 ] 14rem [c6];
     grid-template-rows: 20rem;
     grid-column-gap: 2rem;
     align-items: end;
@@ -136,10 +136,68 @@
       margin-right: auto;
     }
 
+    @include breakpoint(medium) {
+      max-width: 100%;
+      padding: 0;
+    }
+
     @media (hover: none) {
-      max-width: 80%;
+      // max-width: 80%;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    & > ul {
+      list-style: none;
+      text-align: left;
+
+      & > li {
+        padding: 0.5rem;
+        font-size: 1rem;
+        line-height: 1;
+        // border-bottom: 1px solid #e1e1e1;
+        margin-left: 5rem;
+
+        @include breakpoint(xlarge) {
+          margin-left: 2rem;
+        }
+
+        @include breakpoint(large) {
+          margin-left: 0;
+          width: 100%;
+        }
+
+        @include breakpoint(medium) {
+          font-size: 0.8rem;
+          padding-top: 0.5;
+          padding-left: 0;
+        }
+
+        &::before {
+          content: '';
+          display: inline-block;
+          height: 1rem;
+          width: 1.1rem;
+          margin-right: 7px;
+
+          @supports (-webkit-mask-image: url()) or (webkit-mask-image: url()) {
+            background-color: #48bbc4;
+            -webkit-mask-image: url(../../assets/images/chevron-thin-right.svg);
+            -webkit-mask-size: cover;
+            mask-image: url(../../assets/images/chevron-thin-right.svg);
+            mask-size: cover;
+            background-image: none;
+          }
+        }
+      }
+
+      & > a {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        font-size: 1rem;
+      }
     }
 
     &--1 {

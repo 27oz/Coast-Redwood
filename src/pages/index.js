@@ -122,13 +122,13 @@ class Index extends React.Component {
                     <li>Restore your entire computer to dissimilar hardware</li>
                     <li>Secure your data against ransomware</li>
                     <li>Manage your data and retention from anywhere</li>
-                    <li>
-                      Disaster Recovery allows you to restore your server to our
-                      cloud in minutes
-                    </li>
+                    <li>Restore your server to the cloud</li>
                     <li>
                       Protect all your workstations, and servers seemlessly
                     </li>
+                    <Link to="/CloudBackups#form" className="button">
+                      Sign Up
+                    </Link>
                   </ul>
                 </div>
                 <div className="story__cover story__cover--start">&nbsp;</div>
