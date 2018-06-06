@@ -126,7 +126,7 @@ class Index extends React.Component {
                     <li>
                       Protect all your workstations, and servers seemlessly
                     </li>
-                    <Link to="/CloudBackups#form" className="button">
+                    <Link to="/cloudBackups#form" className="button">
                       Sign Up
                     </Link>
                   </ul>
