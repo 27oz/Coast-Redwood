@@ -8,6 +8,7 @@ import HeaderGeneric from '../components/HeaderGeneric'
 import NavGeneric from '../components/NavGeneric'
 import Form from '../components/Form'
 import Card from '../components/PriceCard'
+import Comparer from '../components/Comparer'
 
 class CloudBackups extends React.Component {
   constructor(props) {
@@ -44,37 +45,8 @@ class CloudBackups extends React.Component {
         <NavGeneric title="Cloud Backups" sticky={this.state.stickyNavGen} />
 
         <div id="main">
-          <section id="pricing" className="main special">
-            <header className="major">
-              <h2>Simple &amp; Straightforward Pricing</h2>
-            </header>
-            <p>
-              Stop worrying about what <strong>could</strong> happen and instead
-              focus on what makes your business really stand out against the
-              rest.
-            </p>
-            <div className="row">
-              <div className="col-1-of-2">
-                <Card
-                  price="*$0.20/GB"
-                  title="Desktop & Server"
-                  details="1-click full system backups &#10; Starting at"
-                  interest1="Restore to dissimilar hardware"
-                  interest2="Customize your retention"
-                  interest3="manage from anywhere"
-                />
-              </div>
-              <div className="col-1-of-2">
-                <Card
-                  price="$7/month"
-                  title="Website"
-                  details="Set it and forget it"
-                  interest1="Set it up in seconds"
-                  interest2="Protect your users"
-                  interest3="restore in a few clicks"
-                />
-              </div>
-            </div>
+          <section className="main special">
+            <Comparer />
           </section>
 
           <section id="content" className="main special">

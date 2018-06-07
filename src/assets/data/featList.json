@@ -1,0 +1,228 @@
+{
+  "features": [
+    {
+      "key": 1,
+      "title": "Workstation",
+      "hint": "Includes Windows, MacOS and Linux workstations",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 2,
+      "title": "example",
+      "hint":
+        "orem ipstur adipisicing elit, orem ipstur adipisicing elit, orem ipstur adipisicing elit",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 3,
+      "title": "example",
+      "hint": "orem ipstur adipisicing elit",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 4,
+      "title": "example",
+      "hint": "yo gabba gabba",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 5,
+      "title": "yada yada yada",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 6,
+      "title": "something else",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✘",
+      "enterprise": "✔"
+    },
+    {
+      "key": 7,
+      "title": "example",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicin",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✘",
+      "enterprise": "✔"
+    },
+    {
+      "key": 8,
+      "title": "Workstation",
+      "hint": "Includes Windows, MacOS and Linux workstations",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 9,
+      "title": "example",
+      "hint":
+        "orem ipstur adipisicing elit, orem ipstur adipisicing elit, orem ipstur adipisicing elit",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 10,
+      "title": "example",
+      "hint": "orem ipstur adipisicing elit",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 11,
+      "title": "example",
+      "hint": "yo gabba gabba",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 12,
+      "title": "yada yada yada",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 13,
+      "title": "something else",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✘",
+      "enterprise": "✔"
+    },
+    {
+      "key": 14,
+      "title": "example",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicin",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✘",
+      "enterprise": "✔"
+    },
+    {
+      "key": 15,
+      "title": "Workstation",
+      "hint": "Includes Windows, MacOS and Linux workstations",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 16,
+      "title": "example",
+      "hint":
+        "orem ipstur adipisicing elit, orem ipstur adipisicing elit, orem ipstur adipisicing elit",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 17,
+      "title": "example",
+      "hint": "orem ipstur adipisicing elit",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 18,
+      "title": "example",
+      "hint": "yo gabba gabba",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 19,
+      "title": "yada yada yada",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 20,
+      "title": "something else",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✘",
+      "enterprise": "✔"
+    },
+    {
+      "key": 21,
+      "title": "example",
+      "hint": "Lorem ipsum dolor sit amet, consectetur adipisicin",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✘",
+      "enterprise": "✔"
+    }
+  ],
+  "plans": [
+    {
+      "key": "a",
+      "name": " ",
+      "price": " "
+    },
+    {
+      "key": "b",
+      "name": " ",
+      "price": " "
+    },
+    {
+      "key": "c",
+      "name": "Basic",
+      "price": "$0.20/GB"
+    },
+    {
+      "key": "d",
+      "name": "Plus",
+      "price": "$0.25/GB"
+    },
+    {
+      "key": "e",
+      "name": "Pro",
+      "price": "$0.30/GB"
+    },
+    {
+      "key": "f",
+      "name": "Enterprise",
+      "price": "à la carte"
+    }
+  ]
+}

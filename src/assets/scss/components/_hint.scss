@@ -1,0 +1,47 @@
+.hint {
+  &__container {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0 5px;
+    position: relative;
+    // border: 1px solid black;
+  }
+
+  &__cover {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__box {
+    box-shadow: 0.5rem 0.5rem 7rem rgba(0, 0, 0, 0.4);
+    padding: 1rem 1rem;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: _palette(color-primary);
+    position: absolute;
+    left: 2.2rem;
+    top: -2rem;
+    z-index: 30;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 2rem;
+      left: -1rem;
+      z-index: 1;
+      border: solid 10px transparent;
+      border-right-color: _palette(color-primary);
+    }
+  }
+
+  &__text {
+    margin: 0;
+    color: #fff;
+  }
+
+  &__icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "Coast Redwood",
+  "description": "27oz Web App",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Joe Dahle, Hunter Chang",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-image": "^1.0.42",
@@ -23,13 +23,12 @@
     "react-scrollspy": "^3.3.5",
     "react-waypoint": "^8.0.1"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-stellar",
-  "keywords": ["gatsby"],
+  "homepage": "https://27oz.io",
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-stellar.git"
+    "url": "https://github.com/27oz/Coast-Redwood.git"
   },
   "scripts": {
     "dev": "gatsby develop",
