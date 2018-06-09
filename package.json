@@ -1,7 +1,7 @@
 {
   "name": "Coast-Redwood",
   "description": "27oz Web App",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Joe Dahle, Hunter Chang",
   "dependencies": {
     "gatsby": "^1.9.235",
