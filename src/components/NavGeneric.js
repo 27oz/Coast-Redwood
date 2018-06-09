@@ -10,13 +10,13 @@ const NavGeneric = props => (
         <Link to="/">Go Home</Link>
       </li>
       <li>
-        <Scroll type="id" element="pricing">
-          <a href="#">Pricing</a>
+        <Scroll type="id" element="chart">
+          <a href="#">Plans</a>
         </Scroll>
       </li>
       <li>
         <Scroll type="id" element="content">
-          <a href="#">Cloud Backups</a>
+          <a href="#">Why Backup</a>
         </Scroll>
       </li>
       <li>

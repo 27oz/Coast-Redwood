@@ -1,0 +1,162 @@
+{
+  "features": [
+    {
+      "key": 4,
+      "title": "Setup and Configuration",
+      "hint":
+        "We'll get everything setup for you, and then walk you through our easy-to-use admin panel.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 11,
+      "title": "OS Restore",
+      "hint":
+        "Restore your Windows environment to dissimilar hardware like nothing ever happened.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 12,
+      "title": "Ransomware Prevention",
+      "hint":
+        "Active system monitoring that prevents ransomware from running on your machine.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 0,
+      "title": "Access Anywhere",
+      "hint":
+        "Access, restore, and manage your files and backups from any internet connected computer.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 1,
+      "title": "Workstation",
+      "hint": "Includes Windows, MacOS and Linux workstations.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 2,
+      "title": "Mobile Device",
+      "hint": "Includes Android and iOS device files.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 3,
+      "title": "Server",
+      "hint": "Windows, Linux, SQL Server, Active Directory and Exchange.",
+      "basic": "✔",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+
+    {
+      "key": 5,
+      "title": "Virtual Machines",
+      "hint":
+        "VMware vShpere, Hyper-V, XenServer, Red Hat Virtualization, Linux KVM and Oracle VM Server",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 6,
+      "title": "Office 365 Mailboxes",
+      "hint": "Mailboxes for every user, or individual mailboxes, you decide.",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 7,
+      "title": "Website",
+      "hint": "Contact us for more info about our Website-Only backup pricing.",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 8,
+      "title": "Proactive Support",
+      "hint":
+        "We handle errors, manage backup configurations and help with restoration.",
+      "basic": "✘",
+      "plus": "✔",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 9,
+      "title": "Local Backups",
+      "hint":
+        "In addition to storing in our secure cloud, you can host the backups locally.",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    },
+    {
+      "key": 10,
+      "title": "Disaster Recovery",
+      "hint":
+        "If your server goes down, we can restore it in our cloud and configure your machines to get back up and running today so you don't have to wait for the tech guy to fix your physical server. *Additional charges may apply.",
+      "basic": "✘",
+      "plus": "✘",
+      "pro": "✔",
+      "enterprise": "✔"
+    }
+  ],
+  "plans": [
+    {
+      "key": "a",
+      "name": " ",
+      "price": " "
+    },
+    {
+      "key": "b",
+      "name": " ",
+      "price": " "
+    },
+    {
+      "key": "c",
+      "name": "Basic",
+      "price": "$0.20/GB"
+    },
+    {
+      "key": "d",
+      "name": "Plus",
+      "price": "$0.25/GB"
+    },
+    {
+      "key": "e",
+      "name": "Pro",
+      "price": "$0.30/GB"
+    },
+    {
+      "key": "f",
+      "name": "Enterprise",
+      "price": "à la carte"
+    }
+  ]
+}

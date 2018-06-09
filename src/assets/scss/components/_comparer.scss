@@ -1,0 +1,55 @@
+.comparer {
+  &__header {
+    display: grid;
+    grid-template-columns: 1fr 1.5rem repeat(4, 1fr);
+
+    & > * {
+      margin-bottom: 1rem;
+    }
+
+    @include breakpoint(large) {
+      font-size: 1rem;
+    }
+
+    @include breakpoint(medium) {
+      font-size: 0.65rem;
+    }
+  }
+
+  &__title {
+    font-size: 1rem;
+
+    @include breakpoint(large) {
+      font-size: 0.7rem;
+    }
+  }
+
+  &__container {
+    display: grid;
+
+    grid-template-rows: auto;
+  }
+
+  &__item {
+    display: grid;
+
+    grid-template-columns: 1fr 1.5rem repeat(4, 1fr);
+    padding: 4px 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #e1e1e1;
+    }
+
+    & > * {
+      margin: 0;
+    }
+
+    &--✔ {
+      color: #5bd672;
+    }
+
+    &--✘ {
+      color: #b84e4e;
+    }
+  }
+}

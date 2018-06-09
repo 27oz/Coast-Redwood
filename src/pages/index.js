@@ -44,6 +44,23 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
+          <section id="why" className="main special">
+            <header className="major">
+              <h3>Who are we?</h3>
+              <h2>We are an online tech service company</h2>
+              <p>
+                We specialize in enterprise cloud backups and cryptocurrencies.
+                Yes those are two separate fields but that’s what makes us
+                special. We’re a team of millenials with passion for technology
+                and how it is incorporated into our lives. Our skills and
+                flexibility allow us to cater to any clients desires and
+                concerns. We are driven, transparent, fair, quirky and love what
+                we do.
+              </p>
+              <p>We are many things and we do a lot.</p>
+            </header>
+          </section>
+
           <section id="meet" className="main special">
             <header className="major">
               <h2>Meet the Team</h2>
@@ -126,9 +143,14 @@ class Index extends React.Component {
                     <li>
                       Protect all your workstations, and servers seemlessly
                     </li>
-                    <Link to="/CloudBackups#form" className="button">
-                      Sign Up
-                    </Link>
+                    <div>
+                      <Link to="/cloudBackups#form" className="button special">
+                        Sign Up
+                      </Link>
+                      <Link to="/cloudBackups" className="button">
+                        Learn More
+                      </Link>
+                    </div>
                   </ul>
                 </div>
                 <div className="story__cover story__cover--start">&nbsp;</div>
@@ -155,7 +177,9 @@ class Index extends React.Component {
 
           <section id="why" className="main special">
             <header className="major">
-              <h2>Why US</h2>
+              <h2>
+                Why <strong>&lt;27oz /&gt;</strong>
+              </h2>
               <p>
                 At <strong>&lt;27oz /&gt;</strong> we take a unique approach at
                 our services by removing the noise, fluff and the unneccessary.
