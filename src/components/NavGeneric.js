@@ -16,7 +16,7 @@ const NavGeneric = props => (
       </li>
       <li>
         <Scroll type="id" element="content">
-          <a href="#">Cloud Backups</a>
+          <a href="#">Why Backup</a>
         </Scroll>
       </li>
       <li>
