@@ -38,10 +38,20 @@
   &__text {
     margin: 0;
     color: #fff;
+    font-size: 0.9rem;
+
+    @include breakpoint(large) {
+      font-size: 0.6rem;
+    }
   }
 
   &__icon {
     width: 1rem;
     height: 1rem;
+  }
+
+  @include breakpoint(large) {
+    width: 0.8rem;
+    height: 0.8rem;
   }
 }

@@ -23,7 +23,7 @@ class Comparer extends Component {
         {data.features.map(feature => {
           return (
             <div key={feature.key} className="comparer__item">
-              <h3>{feature.title}</h3>
+              <h3 className="comparer__title">{feature.title}</h3>
               <Hint hint={feature.hint} title={feature.title} />
               <p className={`comparer__item--${feature.basic}`}>
                 {feature.basic}
