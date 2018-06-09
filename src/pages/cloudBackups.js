@@ -45,7 +45,7 @@ class CloudBackups extends React.Component {
         <NavGeneric title="Cloud Backups" sticky={this.state.stickyNavGen} />
 
         <div id="main">
-          <section className="main special">
+          <section id="chart" className="main special">
             <Comparer />
           </section>
 
@@ -122,9 +122,10 @@ class CloudBackups extends React.Component {
 
           <section id="form" className="main special">
             <header className="major">
-              <h2>Request a Free Trial Today</h2>
+              <h2>Sign up for a free trial today</h2>
               <p>
-                A free 30 day trial is our gift to you! We know you'll love it.<br />
+                14 day trial? yeah right... enjoy a free 30 day trial instead!
+                We know you'll love it.<br />
                 Sign up today, and know peace of mind is only moments away.
               </p>
             </header>

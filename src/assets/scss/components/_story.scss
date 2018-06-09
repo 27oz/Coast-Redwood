@@ -150,7 +150,11 @@
     & > ul {
       list-style: none;
       text-align: left;
+      margin-bottom: 0;
 
+      @include breakpoint(large) {
+        margin-bottom: 1.5rem;
+      }
       & > li {
         padding: 0.5rem;
         font-size: 1rem;
@@ -191,12 +195,21 @@
         }
       }
 
-      & > a {
-        margin-left: 50%;
+      & > div > a {
+        margin-left: 20%;
         transform: translateX(-50%);
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         margin-bottom: 0;
         font-size: 1rem;
+        // width: 4rem;
+        @include breakpoint(small) {
+          margin-left: 1rem;
+        }
+      }
+
+      & > div {
+        display: flex;
+        justify-content: center;
       }
     }
 
