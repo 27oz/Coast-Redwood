@@ -50,13 +50,8 @@ class Navigator extends Component {
               </Link>
             </li>
             <li className="navigation__item">
-              <Link to="itSupport" className="navigation__link">
-                IT Support
-              </Link>
-            </li>
-            <li className="navigation__item">
               <Link to="crypto" className="navigation__link">
-                Cryptomining
+                Crypto Services
               </Link>
             </li>
             <li className="navigation__item">
