@@ -72,7 +72,7 @@
       "key": 5,
       "title": "Virtual Machines",
       "hint":
-        "VMware vShpere, Hyper-V, XenServer, Red Hat Virtualization, Linux KVM and Oracle VM Server",
+        "VMware vShpere, Hyper-V, Viruoso are supported as agentless backups.",
       "basic": "✘",
       "plus": "✔",
       "pro": "✔",

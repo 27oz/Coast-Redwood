@@ -185,9 +185,9 @@ class Index extends React.Component {
                 our services by removing the noise, fluff and the unneccessary.
                 We aim for what makes sense, and for what is predictable to you
                 as a client. We&apos;ve adopted a{' '}
-                <a href="blog.27oz.io/zen">Rules to Live By</a>. We believe that
-                simple is better than complex, that the temptation to guess is
-                not tempting enough and that we are all equal.
+                <a href="https://blog.27oz.io/zen">Rules to Live By</a>. We
+                believe that simple is better than complex, that the temptation
+                to guess is not tempting enough and that we are all equal.
               </p>
             </header>
           </section>
