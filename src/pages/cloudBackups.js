@@ -47,6 +47,11 @@ class CloudBackups extends React.Component {
         <div id="main">
           <section id="chart" className="main special">
             <Comparer />
+            <Link to="#form">
+              <button style={{ marginTop: '2rem' }} className="button special">
+                Sign up today
+              </button>
+            </Link>
           </section>
 
           <section id="content" className="main special">

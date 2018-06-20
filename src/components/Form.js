@@ -16,6 +16,7 @@ class Form extends React.Component {
       signupIsSuccessful: false,
       retrySignup: false,
       phoneIsNotEmpty: false,
+      planChecked: 'Pro',
     }
   }
 
@@ -98,6 +99,7 @@ class Form extends React.Component {
         FNAME: this.fNameInput.value,
         LNAME: this.lNameInput.value,
         PHONE: this.phoneInput.value || 'No Number Supplied',
+        PLAN: this.state.planChecked,
       }
       addToMailchimp(email, listFields)
         .then(data => {
@@ -126,6 +128,10 @@ class Form extends React.Component {
       signupIsSuccessful: false,
       retrySignup: false,
     })
+  }
+
+  _handlePlanChange = e => {
+    this.setState({ planChecked: e.target.value })
   }
 
   render() {
@@ -205,6 +211,47 @@ class Form extends React.Component {
               }
               onChange={this._handlePhoneChange}
             />
+          </label>
+          <label>
+            Subscription Plan:
+            <div>
+              <input
+                type="radio"
+                id="basic"
+                name="basic"
+                value="Basic"
+                onChange={this._handlePlanChange}
+                checked={this.state.planChecked === 'Basic'}
+              />
+              <label htmlFor="basic">Basic</label>
+              <input
+                type="radio"
+                id="plus"
+                name="plus"
+                value="Plus"
+                onChange={this._handlePlanChange}
+                checked={this.state.planChecked === 'Plus'}
+              />
+              <label htmlFor="plus">Plus</label>
+              <input
+                type="radio"
+                id="pro"
+                name="pro"
+                value="Pro"
+                onChange={this._handlePlanChange}
+                checked={this.state.planChecked === 'Pro'}
+              />
+              <label htmlFor="pro">Pro</label>
+              <input
+                type="radio"
+                id="enterprise"
+                name="enterprise"
+                value="Enterprise"
+                onChange={this._handlePlanChange}
+                checked={this.state.planChecked === 'Enterprise'}
+              />
+              <label htmlFor="enterprise">Enterprise</label>
+            </div>
           </label>
           <label>
             {this.state.emailIsValid
