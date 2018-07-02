@@ -49,13 +49,19 @@ class Index extends React.Component {
               <h3>Who are we?</h3>
               <h2>We are an online tech service company</h2>
               <p>
-                We specialize in enterprise cloud backups and cryptocurrencies.
-                Yes those are two separate fields but that’s what makes us
-                special. We’re a team of millenials with passion for technology
-                and how it is incorporated into our lives. Our skills and
-                flexibility allow us to cater to any clients desires and
-                concerns. We are driven, transparent, fair, quirky and love what
-                we do.
+                We currently specialize in enterprise cloud backups and
+                cryptocurrencies, but we are working hard at building a new
+                cloud platform that will change the way we work.
+              </p>
+              <p>
+                We believe every great business sits on the foundation of hard
+                work, humble beginnings, and determination. 27oz is no
+                exception. One day we had an idea, a little different than the
+                rest, and we decided to jump out of the rat race and take a
+                chance on ourselves. We’re a team of millenials who have been
+                best friends for over a decade (a match made in heaven). We
+                share a passion for technology and the way it’s incorporated
+                into our daily lives.
               </p>
               <p>We are many things and we do a lot.</p>
             </header>
@@ -74,10 +80,12 @@ class Index extends React.Component {
                 <h3>Joe Dahle</h3>
                 <h4>CEO</h4>
                 <p>
-                  Joe has worked as an IT Professional and Web Developer for the
-                  better part of his career, and even drove a school bus once
-                  upon a time. He loves dogs, coding, and spending time with
-                  family and friends.
+                  Joe is the founder and fair, fearless leader of 27oz. He is
+                  constantly pushing the team to new heights and successfully
+                  carving out a name for himself in the industry along the way.
+                  He’s spent the better part of his career as a web developer,
+                  coder, and IT professional. Joe values family and friends and
+                  always manages to make time for both.
                 </p>
               </li>
               <li>
@@ -88,10 +96,11 @@ class Index extends React.Component {
                 <h3>Kico Cortes</h3>
                 <h4>CFO</h4>
                 <p>
-                  Kico has been involved with speculative investments for a long
-                  time. From stocks and bonds to Forex and Crypto, He loves it
-                  all. Kico enjoys hobbies that can combine his love for
-                  technology and money together.
+                  Kico is a calculated risk-taker with a wealth of financial
+                  knowledge that never runs dry and the passion to prove it.
+                  He’s been involved with speculative investments too long to
+                  recount. From stocks and bonds to Forex and Crypto, he’s your
+                  guy.
                 </p>
               </li>
               <li>
@@ -102,10 +111,13 @@ class Index extends React.Component {
                 <h3>Tyler Despain</h3>
                 <h4>CTO</h4>
                 <p>
-                  As an IT Professional and all around problem solver, Tyler
-                  enjoys fixing anything: technology, people, and even food.
-                  While he's not solving problems, he's taking a break and
-                  spending time with his wife.
+                  The man behind the scenes, our Acronis Certified Engineer, and
+                  IT professional. He’s likely already putting out fires you
+                  don’t know exist yet. Tyler keeps solutions simple and
+                  efficient, he’s the driving force for all technological
+                  advances within the company, and is even a self-taught web
+                  developer. When he’s not working the business he can be found
+                  traveling the country with his beautiful wife.
                 </p>
               </li>
               <li>
@@ -116,9 +128,14 @@ class Index extends React.Component {
                 <h3>Xavier Acosta</h3>
                 <h4>CMO</h4>
                 <p>
-                  Always a people person, Xavier has been able to form countless
-                  relationships with those around him. His Snaps are on fleek
-                  and he is always up to date on memes.
+                  The suave and handsome face of the company whom you’ve likely
+                  already had a run in with. More importantly, our very own
+                  marketing guru. Xavier is a people person, plain and simple.
+                  He makes a lasting impression and builds countless
+                  relationships with everyone he meets. Growing up in an
+                  entrepreneurial family, he is no stranger to the business, and
+                  has always strived to pave his own path and make his own mark
+                  on the world.
                 </p>
               </li>
             </ul>
