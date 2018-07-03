@@ -6,12 +6,9 @@ import logo from '../assets/images/logo.svg'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>About Us</h2>
+      <h2>Our Blog/h2>
       <p>
-        Best of friends for over a decade, we always knew we could work well
-        together. One day we had an idea for a business a little different than
-        the rest and decided to go all in. Today, we're known as 27oz, and we're
-        here to stay.
+      That&apos;s right, we have a blog. Check it out for updates on our company, technology, and cryptocurrency.
       </p>
       <ul className="actions">
         <li>

@@ -13,8 +13,7 @@ const Header = props => (
     <span className="logo">
       <img style={{ maxWidth: '6em' }} src={subLogo} alt="" />
     </span>
-    <p>Enterprise Cloud Backups & IT Services & Cryptocurrency Consultations</p>
-    <p>We do a lot</p>
+    <p>Enterprise Cloud Backups & Cryptocurrency Consultations</p>
   </header>
 )
 
