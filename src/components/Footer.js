@@ -9,7 +9,7 @@ const Footer = props => (
       <h2>Our Blog</h2>
       <p>
         That&apos;s right, we have a blog. Check it out for updates on our
-        company, technology, and cryptocurrency.
+        company, technology, and how to secure your company from disaster.
       </p>
       <ul className="actions">
         <li>
@@ -33,7 +33,7 @@ const Footer = props => (
         </dd>
         <dt>Email</dt>
         <dd>
-          <a href="mailto:hello@27oz.io">hello@27oz.io</a>
+          <a href="mailto:info@27oz.io">info@27oz.io</a>
         </dd>
       </dl>
       <ul className="icons">

@@ -3,29 +3,29 @@ import Scrollspy from 'react-scrollspy'
 import Scroll from './Scroll'
 import Link from 'gatsby-link'
 
-const NavGeneric = props => (
-  <navGeneric id="nav" className={props.sticky ? 'alt' : ''}>
+const NavRec = props => (
+  <navRec id="nav" className={props.sticky ? 'alt' : ''}>
     <Scrollspy items={[]} currentClassName="is-active" offset={-300}>
       <li>
         <Link to="/">Go Home</Link>
       </li>
       <li>
         <Scroll type="id" element="chart">
-          <a href="#">Plans</a>
+          <a href="#">Blank</a>
         </Scroll>
       </li>
       <li>
         <Scroll type="id" element="content">
-          <a href="#">Why Backup</a>
+          <a href="#">Blank</a>
         </Scroll>
       </li>
       <li>
         <Scroll type="id" element="form">
-          <a href="#">Free Trial</a>
+          <a href="#">Blank</a>
         </Scroll>
       </li>
     </Scrollspy>
-  </navGeneric>
+  </navRec>
 )
 
-export default NavGeneric
+export default NavRec
