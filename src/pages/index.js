@@ -34,9 +34,7 @@ class Index extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
           <meta name="theme-color" content="#c44871" />
         </Helmet>
-
         <Header />
-
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
@@ -147,6 +145,21 @@ class Index extends React.Component {
             </header>
             <div className="story">
               <div className="story__item">
+                <div className="story__cover story__cover--end">&nbsp;</div>
+                <div className="story__description story__description--2">
+                  <p>
+                    Our team has been mining a variety of coins since 2013, and
+                    ironically, we&apos;ve helped progress over&nbsp;
+                    <strong>27</strong> different blockchains with our custom
+                    equipment. Stay tuned to join us in our next big endeavor
+                  </p>
+                </div>
+                <div className="story__title story__title--2">
+                  <h2>Disaster Recovery</h2>
+                  <h4>Tools To Keep You Running</h4>
+                </div>
+              </div>
+              <div className="story__item">
                 <div className="story__title story__title--1">
                   <h2>27bytes</h2>
                   <h4>Enterprise Level Cloud Backups</h4>
@@ -171,23 +184,6 @@ class Index extends React.Component {
                   </ul>
                 </div>
                 <div className="story__cover story__cover--start">&nbsp;</div>
-              </div>
-              <div className="story__item">
-                <div className="story__cover story__cover--end">&nbsp;</div>
-                <div className="story__description story__description--2">
-                  <p>
-                    Our team has been mining a variety of coins since 2013, and
-                    ironically, we&apos;ve helped progress over&nbsp;
-                    <strong>27</strong> different blockchains with our custom
-                    equipment. Stay tuned to join us in our next big endeavor
-                  </p>
-                </div>
-                <div className="story__title story__title--2">
-                  <h2>Crypto Services</h2>
-                  <h4>
-                    <i>Coming Soon!</i>
-                  </h4>
-                </div>
               </div>
             </div>
           </section>
