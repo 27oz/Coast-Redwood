@@ -72,7 +72,7 @@
       "key": 5,
       "title": "Virtual Machines",
       "hint":
-        "VMware vShpere, Hyper-V, Viruoso are supported as agentless backups.",
+        "VMware vShpere, Hyper-V, Virtuoso are supported as agentless backups.",
       "basic": "✘",
       "plus": "✔",
       "pro": "✔",
