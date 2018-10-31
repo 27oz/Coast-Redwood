@@ -58,16 +58,7 @@ class CloudBackups extends React.Component {
             <header className="major">
               <h2>27bytes Cloud Backup Solutions</h2>
             </header>
-            <p>
-              At 27oz we are determined to provide more than just a crypto
-              mining solution. We ultimately aim to provide a cloud based
-              infrastructure for a variety of services. We are proud to offer a
-              managed backup solution utilizing Acronis Backup Cloud
-              technologies as one our first alternative cloud solutions.
-            </p>
-            <header className="major">
-              <h2>Disasters Do Happen</h2>
-            </header>
+
             <p>
               There are many ways disaster can destroy years worth of business
               essential data; hardware failure, bad weather, power failure,
