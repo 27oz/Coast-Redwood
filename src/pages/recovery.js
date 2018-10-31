@@ -5,11 +5,12 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
 import HeaderGeneric from '../components/HeaderGeneric'
-import NavGeneric from '../components/NavGeneric'
+import NavRec from '../components/NavRec'
 import Form from '../components/Form'
 import Card from '../components/PriceCard'
+import Comparer from '../components/Comparer'
 
-class Prices extends React.Component {
+class Recovery extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -32,27 +33,19 @@ class Prices extends React.Component {
           <meta name="theme-color" content="#c44871" />
         </Helmet>
 
-        <HeaderGeneric title={'Pricing'} />
+        <HeaderGeneric title={'Disaster Recovery'} subText={'Need a subtext'} />
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
         />
-        <NavGeneric title="Pricing" sticky={this.state.stickyNavGen} />
+        <NavRec title="Disaster Recovery" sticky={this.state.stickyNavGen} />
 
         <div id="main">
-          <section id="pricing" className="main special">
+          <section id="content" className="main special">
             <header className="major">
-              <h2>27bytes Cloud Backup Solutions</h2>
+              <h2>Disaster Recovery from the Experts</h2>
             </header>
-            <div className="row">
-              <div className="col-1-of-2">
-                <Card price="$0.20/GB" title="Desktop & Server" />
-              </div>
-              <div className="col-1-of-2">
-                <Card price="$7/month" title="Website" />
-              </div>
-            </div>
           </section>
         </div>
       </div>
@@ -60,14 +53,14 @@ class Prices extends React.Component {
   }
 }
 
-Prices.propTypes = {
+Recovery.propTypes = {
   route: React.PropTypes.object,
 }
 
-export default Prices
+export default Recovery
 
 export const pageQuery = graphql`
-  query PricingQuery {
+  query RecoveryQuery {
     site {
       siteMetadata {
         title

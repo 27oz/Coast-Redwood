@@ -9,7 +9,7 @@ const Footer = props => (
       <h2>Our Blog</h2>
       <p>
         That&apos;s right, we have a blog. Check it out for updates on our
-        company, technology, and cryptocurrency.
+        company, technology, and how to secure your company from disaster.
       </p>
       <ul className="actions">
         <li>
@@ -33,35 +33,9 @@ const Footer = props => (
         </dd>
         <dt>Email</dt>
         <dd>
-          <a href="mailto:hello@27oz.io">hello@27oz.io</a>
+          <a href="mailto:info@27oz.io">info@27oz.io</a>
         </dd>
       </dl>
-      <ul className="icons">
-        <li>
-          <a
-            href="https://twitter.com/27ozofficial"
-            className="icon fa-twitter alt"
-          >
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/27ozOfficial/"
-            className="icon fa-facebook alt"
-          >
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/27ozoffical/"
-            className="icon fa-instagram alt"
-          >
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-      </ul>
     </section>
     <p className="copyright">&copy; 27oz LLC.</p>
   </footer>

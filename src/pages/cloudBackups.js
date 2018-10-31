@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
 import HeaderGeneric from '../components/HeaderGeneric'
-import NavGeneric from '../components/NavGeneric'
+import NavBak from '../components/NavBak'
 import Form from '../components/Form'
 import Card from '../components/PriceCard'
 import Comparer from '../components/Comparer'
@@ -42,7 +42,7 @@ class CloudBackups extends React.Component {
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
         />
-        <NavGeneric title="Cloud Backups" sticky={this.state.stickyNavGen} />
+        <NavBak title="Cloud Backups" sticky={this.state.stickyNavGen} />
 
         <div id="main">
           <section id="chart" className="main special">
@@ -130,7 +130,8 @@ class CloudBackups extends React.Component {
               <h2>Sign up for a free trial today</h2>
               <p>
                 14 day trial? yeah right... enjoy a free 30 day trial instead!
-                We know you'll love it.<br />
+                We know you'll love it.
+                <br />
                 Sign up today, and know peace of mind is only moments away.
               </p>
             </header>

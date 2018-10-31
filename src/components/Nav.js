@@ -15,10 +15,10 @@ const Nav = props => (
         </Scroll>
       </li>
       <li>
-        <a href="/cloudBackups">Cloud Backups</a>
+        <a href="/recovery">Disaster Recovery</a>
       </li>
       <li>
-        <a href="/crypto">Crypto Services</a>
+        <a href="/cloudBackups">Cloud Backups</a>
       </li>
       <li>
         <a href="https://blog.27oz.io">Blog</a>
