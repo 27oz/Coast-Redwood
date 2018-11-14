@@ -7,10 +7,10 @@ import Waypoint from 'react-waypoint'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 
-import joe from '../assets/images/joe.jpg'
-import tyler from '../assets/images/tyler.jpg'
-import xavier from '../assets/images/xavier.jpg'
-import kico from '../assets/images/kico.jpg'
+import joe from '../assets/images/joe2.jpg'
+import tyler from '../assets/images/tyler2.jpg'
+import xavier from '../assets/images/xavier2.jpg'
+import kico from '../assets/images/kico2.jpg'
 
 class Index extends React.Component {
   constructor(props) {
