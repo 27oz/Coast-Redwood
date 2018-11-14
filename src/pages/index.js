@@ -7,10 +7,10 @@ import Waypoint from 'react-waypoint'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 
-import joe from '../assets/images/joe.jpg'
-import tyler from '../assets/images/tyler.jpg'
-import xavier from '../assets/images/xavier.jpg'
-import kico from '../assets/images/kico.jpg'
+import joe from '../assets/images/joe2.jpg'
+import tyler from '../assets/images/tyler2.jpg'
+import xavier from '../assets/images/xavier2.jpg'
+import kico from '../assets/images/kico2.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -46,22 +46,17 @@ class Index extends React.Component {
             <header className="major">
               <h3>Who are we?</h3>
               <h2>We are an online tech service company</h2>
-              <p>
-                We currently specialize in enterprise cloud backups and
-                cryptocurrencies, but we are working hard at building a new
-                cloud platform that will change the way we work.
-              </p>
+
               <p>
                 We believe every great business sits on the foundation of hard
                 work, humble beginnings, and determination. 27oz is no
                 exception. One day we had an idea, a little different than the
                 rest, and we decided to jump out of the rat race and take a
                 chance on ourselves. We’re a team of millenials who have been
-                best friends for over a decade (a match made in heaven). We
-                share a passion for technology and the way it’s incorporated
-                into our daily lives.
+                best friends for over a decade. We share a passion for
+                technology and the way it’s incorporated into our businesses.
               </p>
-              <p>We are many things and we do a lot.</p>
+              <p>We Make It Better.</p>
             </header>
           </section>
 
@@ -97,7 +92,7 @@ class Index extends React.Component {
                   Kico is a calculated risk-taker with a wealth of financial
                   knowledge that never runs dry and the passion to prove it.
                   He’s been involved with speculative investments too long to
-                  recount. From stocks and bonds to Forex and Crypto, he’s your
+                  recount. From stocks and bonds to Forex and Futures, he’s your
                   guy.
                 </p>
               </li>
@@ -145,15 +140,17 @@ class Index extends React.Component {
             </header>
             <div className="story">
               <div className="story__item">
-                <div className="story__cover story__cover--end">&nbsp;</div>
                 <div className="story__description story__description--2">
-                  <p>
-                    Our team has been mining a variety of coins since 2013, and
-                    ironically, we&apos;ve helped progress over&nbsp;
-                    <strong>27</strong> different blockchains with our custom
-                    equipment. Stay tuned to join us in our next big endeavor
-                  </p>
+                  <h3>Coming Soon!</h3>
+                  <ul>
+                    <li>Business Continuity Planning and Consulting</li>
+                    <li>Data Retention Consultations</li>
+                    <li>Infrastructure Redundancy Options</li>
+                    <li>Disaster Recovery Planning and Consulting</li>
+                    <li>Protection against outages</li>
+                  </ul>
                 </div>
+                <div className="story__cover story__cover--end">&nbsp;</div>
                 <div className="story__title story__title--2">
                   <h2>Disaster Recovery</h2>
                   <h4>Tools To Keep You Running</h4>

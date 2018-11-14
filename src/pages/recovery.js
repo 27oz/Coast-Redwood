@@ -9,6 +9,7 @@ import NavRec from '../components/NavRec'
 import Form from '../components/Form'
 import Card from '../components/PriceCard'
 import Comparer from '../components/Comparer'
+import logo from '../assets/images/27oz_logo_pink_transparent.png'
 
 class Recovery extends React.Component {
   constructor(props) {
@@ -33,20 +34,26 @@ class Recovery extends React.Component {
           <meta name="theme-color" content="#c44871" />
         </Helmet>
 
-        <HeaderGeneric title={'Disaster Recovery'} subText={'Need a subtext'} />
+        <HeaderGeneric title={'Disaster Recovery'} subText={'Make it better'} />
 
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        />
-        <NavRec title="Disaster Recovery" sticky={this.state.stickyNavGen} />
+        <p className="logo" style={{ textAlign: 'center' }}>
+          <img style={{ maxWidth: '6em' }} src={logo} alt="" />
+        </p>
 
-        <div id="main">
-          <section id="content" className="main special">
-            <header className="major">
-              <h2>Disaster Recovery from the Experts</h2>
-            </header>
-          </section>
+        <div style={{ textAlign: 'center' }}>
+          <i
+            className="icon fa-5x fa-code"
+            style={{ color: '#e2a266', width: '10em' }}
+          />
+          <br />
+          <span>Still under construction, come back soon!</span>
+          <br />
+
+          <br />
+          <br />
+          <Link to="/" className="button">
+            Return Home
+          </Link>
         </div>
       </div>
     )
